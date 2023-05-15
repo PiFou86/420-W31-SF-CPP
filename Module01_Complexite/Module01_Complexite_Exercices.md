@@ -10,9 +10,14 @@ Installez le support de C++ pour Visual Studio :
 4. Cliquez sur `Modify`
 5. Pendant les opérations d'installation, vous pouvez faire les exercices
 
-## Exercice 1 - Une idée sur l'impact de la complexité sur le temps d'exécution
+## Exercice 1 - Recherche
 
-Créez un projet C# dans Visual Studio et implémentez un programme qui permet d'afficher le temps d'exécution d'une fonction en fonction de la taille de l'entrée et de sa complexité.
+1. Calculer la complexité de la recherche d'une valeur dans une liste
+2. Essayer de recalculer la complexité de la recherche dichotomique
+
+## Exercice 2 - Une idée sur l'impact de la complexité sur le temps d'exécution
+
+Créez un projet **C#** (Vous n'avez pas encore vu C++) dans Visual Studio et implémentez un programme qui permet d'afficher le temps d'exécution d'une fonction en fonction de la taille de l'entrée et de sa complexité.
 
 Les complexités à tester sont :
 
@@ -28,11 +33,6 @@ Les hypothèses sont :
 
 - 1 000 000 d'opérations par seconde
 - Tests avec des entrées de dimensions 10, 100, 1000, 10 000, 100 000, 1 000 000
-
-## Exercice 2 - Recherche
-
-1. Calculer la complexité de la recherche d'une valeur dans une liste
-2. Essayer de recalculer la complexité de la recherche dichotomique
 
 ## Exercice 3 - Tris
 
