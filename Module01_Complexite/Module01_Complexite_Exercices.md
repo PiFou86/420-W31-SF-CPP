@@ -1,4 +1,4 @@
-# Module 02 - Complexité
+# Module 01 - Complexité
 
 ## Préalables pour la suite
 
