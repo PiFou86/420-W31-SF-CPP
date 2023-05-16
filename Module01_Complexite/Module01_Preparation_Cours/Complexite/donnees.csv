@@ -1,0 +1,8 @@
+;10;100;1000;10000;100000;1000000
+O(1);0 µs;0 µs;0 µs;0 µs;0 µs;0 µs
+O(log(n));0,03321928094887362 µs;0,06643856189774724 µs;0,09965784284662088 µs;0,1328771237954945 µs;0,16609640474436813 µs;0,19931568569324176 µs
+O(n);0,1 µs;1 milliseconde;10 millisecondes;100 millisecondes;1 seconde;10 secondes
+O(n log n);0,33219280948873625 µs;6 millisecondes;99 millisecondes;1 seconde, 328 millisecondes;16 secondes, 609 millisecondes;3 minutes, 19 secondes
+O(n^2);1 milliseconde;100 millisecondes;10 secondes;16 minutes, 40 secondes;1 jour, 3 heures;16 semaines, 3 jours
+O(n^3);10 millisecondes;10 secondes;2 heures, 46 minutes;16 semaines, 3 jours;317,09791983764586 ans;317 millénaires
+O(2^n);10 millisecondes;401969368413314 millénaires;9223372036854776 millénaires;9223372036854776 millénaires;9223372036854776 millénaires;9223372036854776 millénaires
