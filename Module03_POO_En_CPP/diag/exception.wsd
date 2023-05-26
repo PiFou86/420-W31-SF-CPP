@@ -1,0 +1,17 @@
+@startuml Exception
+
+package std {
+    exception <|-- logic_failure
+    exception <|-- runtime_error
+
+    logic_failure <|-- domain_error
+    logic_failure <|-- invalid_argument
+    logic_failure <|-- length_error
+    logic_failure <|-- out_of_range
+
+    runtime_error <|-- range_error
+    runtime_error <|-- overflow_error
+    runtime_error <|-- underflow_error
+}
+
+@enduml
