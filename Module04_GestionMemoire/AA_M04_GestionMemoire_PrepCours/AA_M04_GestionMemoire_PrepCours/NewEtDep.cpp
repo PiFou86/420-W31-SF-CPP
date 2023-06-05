@@ -25,8 +25,14 @@ NewEtDep& NewEtDep::operator=(NewEtDep&& p_aDeplacer)
 {
 	std::cout << "operateur= dep (0x" << std::hex << this << ")" << std::endl;
 
+	if (this->m_donnee) {
+		delete[] this->m_donnee;
+	}
+
 	this->m_donnee = p_aDeplacer.m_donnee;
 	p_aDeplacer.m_donnee = nullptr;
+
+	return *this;
 }
 
 NewEtDep::~NewEtDep() {

@@ -115,7 +115,11 @@ ListeEntiers& ListeEntiers::operator=(ListeEntiers&& p_listeADeplacer)
 	std::cout << "ListeEntiers::operator=(ListeEntiers&& p_listeACopier) (0x" << std::hex << this << ")" << std::endl;
 
 	this->m_nbElements = p_listeADeplacer.m_nbElements;
-	delete[] this->m_valeurs;
+	if (this->m_valeurs)
+	{
+		delete[] this->m_valeurs;
+	}
+
 	this->m_valeurs = p_listeADeplacer.m_valeurs;
 	p_listeADeplacer.m_valeurs = nullptr;
 	p_listeADeplacer.m_capacite = 0;
