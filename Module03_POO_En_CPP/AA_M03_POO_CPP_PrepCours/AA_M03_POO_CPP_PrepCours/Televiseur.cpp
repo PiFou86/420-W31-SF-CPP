@@ -31,7 +31,7 @@ Televiseur::Televiseur(Televiseur&& p_rvalue) :
 	m_volume(p_rvalue.m_volume),
 	m_estAllume(p_rvalue.m_estAllume)
 {
-	std::cout << "Ctor par copie (0x" << std::hex << this << ")" << std::endl;
+	std::cout << "Ctor par déplacement (0x" << std::hex << this << ")" << std::endl;
 }
 
 // Ctor d'initialisation avec un paramètre qui a une valeur par défaut
