@@ -11,6 +11,11 @@ int main()
 	demo1();
 }
 
+Televiseur creerTeleviseur() {
+	Televiseur t;
+	return t;
+}
+
 void demo1() {
 	std::cout << "Televiseur t1;" << std::endl;
 	Televiseur t1;
@@ -37,6 +42,9 @@ void demo1() {
 
 	std::cout << std::endl << "t3 = Televiseur(30, 16, false);" << std::endl;
 	t3 = Televiseur(30, 16, false);
+
+	std::cout << std::endl << "Televiseur t5 = creerTeleviseur();" << std::endl;
+	Televiseur t5 = creerTeleviseur();
 
 	std::cout << std::endl << "Actionnable& a1 = t3" << std::endl;
 	Actionnable& a1 = t3;
