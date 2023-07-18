@@ -14,12 +14,10 @@
 
 La suite est définie de la façon suivante :
 
-```
-
+```cpp
 - Fibonacci(0) = 0 // Condition d'arrêt
 - Fibonacci(1) = 1 // Condition d'arrêt
 - Fibonacci(n) = Fibonacci(n - 1) + Fibonacci(n - 2) // Récursivité
-
 ```
 
 1. Écrivez la fonction ```fibonacci``` en version récursive qui calcule une valeur de la suite de Fibonacci.
