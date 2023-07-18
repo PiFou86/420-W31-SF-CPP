@@ -14,7 +14,7 @@
 
 La suite est définie de la façon suivante :
 
-```math
+```
 
 - Fibonacci(0) = 0 // Condition d'arrêt
 - Fibonacci(1) = 1 // Condition d'arrêt
