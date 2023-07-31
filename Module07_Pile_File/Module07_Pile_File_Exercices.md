@@ -28,8 +28,8 @@ Ajoutez les opérateurs suivants à votre pile et votre file :
 
 - `~pile` : retourne une pile inversée
 - `~file` : retourne une file inversée
-- `pile1 + pile2 => pile` : concatène deux piles
-- `file1 + file2 => file` : concatène deux files
+- `pile1 + pile2 => pile` : concatène deux piles (Par exemple, si la pile contient les éléments `1`, `2` et `3`, la pile devient `3`, `2` et `1` après le renversement.)
+- `file1 + file2 => file` : concatène deux files (Si la file contient les éléments `1`, `2` et `3`, la file devient `3`, `2` et `1` après le renversement.)
 - `pile1 += pile2 => pile` : ajoute une pile à une autre
 - `file1 += file2 => file` : ajoute une file à une autre
 - `pile1 == pile2 => booléen` : indique si deux piles sont égales
@@ -39,11 +39,7 @@ Ajoutez les opérateurs suivants à votre pile et votre file :
 - `ostream << pile => ostream` : affiche la pile dans un flux de sortie
 - `ostream << file => ostream` : affiche la file dans un flux de sortie
 
-## Exercice 2 - Renversement
-
-Pour les deux structures de données précédentes, écrivez un méthode qui renverse la structure de données. Par exemple, si la pile contient les éléments `1`, `2` et `3`, la pile devient `3`, `2` et `1` après le renversement. Si la file contient les éléments `1`, `2` et `3`, la file devient `3`, `2` et `1` après le renversement.
-
-## Exercice 3 - Compteur de parenthèses
+## Exercice 2 - Compteur de parenthèses
 
 En utilisant un des deux structures de données vues en cours, écrivez un programme qui lit une chaîne de caractères et qui indique si les parenthèses sont correctement imbriquées. Par exemple, les chaînes suivantes sont correctes : `()`, `(()())`, `(()(()()))`, `((()())(()()))`. Les chaînes suivantes sont incorrectes : `(`, `)`, `(()`, `())`, `(()(()())`, `((()())(()())`.
 
