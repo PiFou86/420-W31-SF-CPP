@@ -20,8 +20,8 @@ Pour chacune des fonctionnalités, vous devez écrire les tests unitaires avant 
 - `int obtenir(const int& p_indice)` : Retourne la valeur à l'indice donné en paramètre.
 - `int nombreElements() const` : Retourne le nombre d'éléments dans la liste.
 - `int capacite() const` : Retourne la capacité de la liste.
-- `ListeEntiers & operator=(const ListeEntiers &p_listeACopier)` : Opérateur d'affectation par copie, copie les éléments de la liste passée en paramètre.
-- `ListeEntiers & operator=(ListeEntiers &&p_listeADeplacer)` : Opérateur d'affectation par déplacement, déplace les éléments de la liste passée en paramètre.
+- `ListeChaineeEntiers & operator=(const ListeChaineeEntiers &p_listeACopier)` : Opérateur d'affectation par copie, copie les éléments de la liste passée en paramètre.
+- `ListeChaineeEntiers & operator=(ListeChaineeEntiers &&p_listeADeplacer)` : Opérateur d'affectation par déplacement, déplace les éléments de la liste passée en paramètre.
 - `void parcourir(void (*p_fonction)(const int&))` : Parcourt la liste et applique la fonction passée en paramètre à chaque élément de la liste.
 - `void trier(bool (*p_fonctionTri)(const int&, const int&))` : Trie la liste selon la fonction de classement passée en paramètre.
 
