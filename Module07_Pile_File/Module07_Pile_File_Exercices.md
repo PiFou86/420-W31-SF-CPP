@@ -28,8 +28,8 @@ Ajoutez les opérateurs suivants à votre pile et votre file :
 
 - `~pile` : retourne une pile inversée
 - `~file` : retourne une file inversée
-- `pile1 + pile2 => pile` : concatène deux piles (Par exemple, si la pile contient les éléments `1`, `2` et `3`, la pile devient `3`, `2` et `1` après le renversement.)
-- `file1 + file2 => file` : concatène deux files (Si la file contient les éléments `1`, `2` et `3`, la file devient `3`, `2` et `1` après le renversement.)
+- `pile1 + pile2 => pile` : concatène deux piles (Par exemple, si la pile 1 contient les éléments `1`, `2` et `3` et la pile 2 contient `4` et `5`, la pile retournée sera `1`, `2`, `3`, `4` et `5` après la concaténation.)
+- `file1 + file2 => file` : concatène deux files (Par exemple, si la file 1 contient les éléments `1`, `2` et `3` et la file 2 contient `4` et `5`, la file retournée sera `1`, `2`, `3`, `4` et `5` après la concaténation.)
 - `pile1 += pile2 => pile` : ajoute une pile à une autre
 - `file1 += file2 => file` : ajoute une file à une autre
 - `pile1 == pile2 => booléen` : indique si deux piles sont égales
