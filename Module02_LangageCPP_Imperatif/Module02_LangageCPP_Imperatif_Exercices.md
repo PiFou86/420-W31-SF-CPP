@@ -14,11 +14,11 @@
 
 1. Créez un projet de type `Console App` en `C++` dans Visual Studio
 2. Créez le fichier `recherche.h` et placez le dans le dossier `Header Files`
-3. Déclarez la fonction `recherche` dans le fichier `recherche.h`. La fonction renvoie la position d'un élément dans un tableau ou `-1` si l'élément n'est pas trouvé. La fonction prend en paramètre un tableau d'entiers et sa capacité ainsi que la valeur à rechercher.
+3. Déclarez la fonction `rechercher` dans le fichier `recherche.h`. La fonction renvoie la position d'un élément dans un tableau ou `-1` si l'élément n'est pas trouvé. La fonction prend en paramètre un tableau d'entiers et sa capacité ainsi que la valeur à rechercher.
 4. Créez le fichier `recherche.cpp` et placez le dans le dossier `Source Files`
-5. Implémentez la fonction `recherche` dans le fichier `recherche.cpp`
+5. Implémentez la fonction `rechercher` dans le fichier `recherche.cpp`
 6. Modifiez le nom du fichier qui contient la fonction `main` en `main.cpp`
-7. Appelez la fonction `recherche` dans la fonction `main` et affichez le résultat. Le test est constitué d'un tableau prédéfini de 10 entiers et d'une valeur à rechercher.
+7. Appelez la fonction `rechercher` dans la fonction `main` et affichez le résultat. Le test est constitué d'un tableau prédéfini de 10 entiers et d'une valeur à rechercher.
 8. Testez votre programme avec un tableau d'entiers et une valeur à rechercher
 9. Modifiez votre programme pour saisir l'entier à trouver et le tableau de 10 entiers.
 
