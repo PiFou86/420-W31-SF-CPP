@@ -4,7 +4,7 @@
 
 1. Créez un projet de type `Console App` en `C++` dans Visual Studio
 2. Créez le fichier `mesmath.h` et placez le dans le dossier `Header Files`
-3. Déclarez les fonctions `min` et `max` dans le fichier `mesmath.h`
+3. Déclarez les fonctions `min` et `max` dans le fichier `mesmath.h`. Ces fonctions renvoient le min et le max de deux nombres passés en paramètres.
 4. Créez le fichier `mesmath.cpp` et placez le dans le dossier `Source Files`
 5. Implémentez les fonctions `min` et `max` dans le fichier `mesmath.cpp`
 6. Modifiez le nom du fichier qui contient la fonction `main` en `main.cpp`
