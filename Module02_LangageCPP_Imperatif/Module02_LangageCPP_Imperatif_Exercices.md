@@ -14,7 +14,7 @@
 
 1. Créez un projet de type `Console App` en `C++` dans Visual Studio
 2. Créez le fichier `recherche.h` et placez le dans le dossier `Header Files`
-3. Déclarez la fonction `recherche` dans le fichier `recherche.h`. La fonction renvoie la position d'un élément dans un tableau ou `-1` si l'élément n'est pas trouvé. La fonction prend en paramètre un tableau d'entiers et sa taille ainsi que la valeur à rechercher.
+3. Déclarez la fonction `recherche` dans le fichier `recherche.h`. La fonction renvoie la position d'un élément dans un tableau ou `-1` si l'élément n'est pas trouvé. La fonction prend en paramètre un tableau d'entiers et sa capacité ainsi que la valeur à rechercher.
 4. Créez le fichier `recherche.cpp` et placez le dans le dossier `Source Files`
 5. Implémentez la fonction `recherche` dans le fichier `recherche.cpp`
 6. Modifiez le nom du fichier qui contient la fonction `main` en `main.cpp`
