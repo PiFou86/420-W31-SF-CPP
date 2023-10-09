@@ -53,6 +53,7 @@ Implantez les méthodes du diagramme :
 - `ListeEntiers & operator=(const ListeEntiers &p_listeACopier)` : Opérateur d'affectation par copie, copie les éléments de la liste passée en paramètre.
 - `ListeEntiers & operator=(ListeEntiers &&p_listeADeplacer)` : Opérateur d'affectation par déplacement, déplace les éléments de la liste passée en paramètre.
 - `void parcourir(void (*p_fonction)(const int&))` : Parcourt la liste et applique la fonction passée en paramètre à chaque élément de la liste.
+- `ListeEntiers concatener(const ListEntiers &p_listeAConcatener)` : Concatène dans une nouvelle liste la liste courante suivie de la liste passée en paramètre.
 
 ### Exercice 2.2 - Tests de la classe `ListeEntiers`
 
@@ -64,3 +65,15 @@ Créez un programme qui permet de tester les méthodes de la classe `ListeEntier
 - Tester les opérateurs d'affectation par copie et par déplacement.
 - Tester le constructeur par copie et par déplacement.
 - Afficher la liste.
+
+### Exercice 2.3 - Exercices optionnels
+
+Ajoutez les fonctionnalités suivantes à votre liste :
+
+- `void ajouterDebut(const int& p_valeur)` : Ajoute un entier au début de la liste.
+- `void inserer(const int& p_valeur, const int& p_indice)` : Insère un entier à la position donnée en paramètre.
+- `void supprimerDebut()` : Supprime l'entier du début de la liste.
+- `void supprimer(const int &p_indice)` : Supprime l'entier à l'indice donné.
+- `void trier()` : Tri la liste d'entiers
+- `int chercher(const int& p_valeur)` : Recherche la position de p_valeur dans la liste. Si non trouvée, renvoyer -1.
+- `bool estDansListe(const int& p_valeur)` : Renvoie vrai si la valeur est dans la liste, faux sinon.
