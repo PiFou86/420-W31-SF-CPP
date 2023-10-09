@@ -53,8 +53,8 @@ Implantez les méthodes du diagramme :
 - `ListeEntiers & operator=(const ListeEntiers &p_listeACopier)` : Opérateur d'affectation par copie, copie les éléments de la liste passée en paramètre.
 - `ListeEntiers & operator=(ListeEntiers &&p_listeADeplacer)` : Opérateur d'affectation par déplacement, déplace les éléments de la liste passée en paramètre.
 - `void parcourir(void (*p_fonction)(const int&))` : Parcourt la liste et applique la fonction passée en paramètre à chaque élément de la liste.
-- `ListeEntiers concatener(const ListEntiers &p_listeAConcatener)` : Concatène dans une nouvelle liste la liste courante suivie de la liste passée en paramètre.
-- `ListeEntiers concatener(ListEntiers &&p_listeAConcatener)` : Concatène dans une nouvelle liste la liste courante suivie de la liste passée en paramètre. Vous devez utiliser le constructeur par déplacement si le nombre total d'éléments est inférieur à la capacité totale de la rvalue.
+- `ListeEntiers concatener(const ListeEntiers &p_listeAConcatener)` : Concatène dans une nouvelle liste la liste courante suivie de la liste passée en paramètre.
+- `ListeEntiers concatener(ListeEntiers &&p_listeAConcatener)` : Concatène dans une nouvelle liste la liste courante suivie de la liste passée en paramètre. Vous devez utiliser le constructeur par déplacement si le nombre total d'éléments est inférieur à la capacité totale de la rvalue.
 
 ### Exercice 2.2 - Tests de la classe `ListeEntiers`
 
