@@ -41,7 +41,7 @@ Le but de cet exercice est de créer une liste d'entiers. La liste va être cré
 
 Implantez les méthodes du diagramme :
 
-- `ListeEntiers()` : Constructeur par défaut, initialise la liste à vide avec une capacité de 1 élément.
+- `ListeEntiers()` : Constructeur par défaut, initialise la liste à vide avec une capacité de 23 éléments.
 - `ListeEntiers(const ListeEntiers &p_listeACopier)` : Constructeur par copie, copie les éléments de la liste passée en paramètre.
 - `ListeEntiers(ListeEntiers &&p_listeADeplacer)` : Constructeur par déplacement, déplace les éléments de la liste passée en paramètre.
 - `~ListeEntiers()` : Destructeur, libère la mémoire allouée pour le tableau d'entiers.
@@ -54,6 +54,7 @@ Implantez les méthodes du diagramme :
 - `ListeEntiers & operator=(ListeEntiers &&p_listeADeplacer)` : Opérateur d'affectation par déplacement, déplace les éléments de la liste passée en paramètre.
 - `void parcourir(void (*p_fonction)(const int&))` : Parcourt la liste et applique la fonction passée en paramètre à chaque élément de la liste.
 - `ListeEntiers concatener(const ListEntiers &p_listeAConcatener)` : Concatène dans une nouvelle liste la liste courante suivie de la liste passée en paramètre.
+- `ListeEntiers concatener(ListEntiers &&p_listeAConcatener)` : Concatène dans une nouvelle liste la liste courante suivie de la liste passée en paramètre. Vous devez utiliser le constructeur par déplacement si le nombre total d'éléments est inférieur à la capacité totale de la rvalue.
 
 ### Exercice 2.2 - Tests de la classe `ListeEntiers`
 
