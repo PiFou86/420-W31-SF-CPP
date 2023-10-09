@@ -16,6 +16,8 @@ class ListeEntiers {
   + ListeEntiers & operator=(const ListeEntiers &p_listeACopier)
   + ListeEntiers & operator=(ListeEntiers &&p_listeADeplacer)
   + void parcourir(void (*p_fonction)(const int&))
+  + ListeEntiers concatener(const ListEntiers &p_listeAConcatener)
+  + ListeEntiers concatener(ListEntiers &&p_listeAConcatener)
 }
 
 @enduml
