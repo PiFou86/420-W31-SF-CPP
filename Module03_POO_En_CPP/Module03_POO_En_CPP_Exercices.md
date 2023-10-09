@@ -15,7 +15,7 @@ Créez une classe `Personne` avec les attributs suivants :
 - Créez le constructeur par copie
 - Créez le constructeur de déplacement
 - Créez un destructeur
-- Créez l'opérateur d'affectation
+- Créez les opérateurs d'affectation (& et &&)
 - Créez des accesseurs et des mutateurs pour chaque attribut (get/set)
 - Créez une méthode `afficher()` qui affiche les attributs de la classe `Personne`.
 - Créez une méthode `anniversaire()` qui incrémente l'attribut `age` de la classe `Personne`
