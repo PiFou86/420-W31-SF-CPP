@@ -18,7 +18,7 @@ Créez une classe `Personne` avec les attributs suivants :
 - Créez les opérateurs d'affectation (& et &&)
 - Créez des accesseurs et des mutateurs (get/set) pour le nom, le prénom et la taille (get seulement)
 - Créez une méthode `afficher()` qui affiche les attributs de la classe `Personne`.
-- Créez une méthode `anniversaire()` qui incrémente l'attribut `age` de la classe `Personne`
+- Créez une méthode `feterAnniversaire()` qui incrémente l'attribut `age` de la classe `Personne`
 - Créez une méthode `grandir()` qui incrémente l'attribut `taille` de la classe `Personne`
 
 Chaque méthode doit afficher un message dans la console pour indiquer son exécution.
