@@ -24,6 +24,17 @@ Pour chacune des fonctionnalités, vous devez écrire les tests unitaires avant 
 - `void parcourir(void (*p_fonction)(const int&))` : Parcourt la liste et applique la fonction passée en paramètre à chaque élément de la liste.
 - `void trier(bool (*p_fonctionTri)(const int&, const int&))` : Trie la liste selon la fonction de classement passée en paramètre.
 
+**Partie optionnelle, mais la lection des questions peut-être intéressante**
+
+Ajoutez des fonctions amies pour l'opérateur `+` afin d'effectuer la concaténation de deux listes. N'oubliez pas que les paramètres peuvent être passés par référence ou par référence de rvalue. Vous aurez donc à redéfinir les opérateurs :
+
+- `friend ListeChaineeEntiers operator+(const ListeChaineeEntiers&, const ListeChaineeEntiers&)`
+- `friend ListeChaineeEntiers operator+(ListeChaineeEntiers&&, const ListeChaineeEntiers&)`
+- `friend ListeChaineeEntiers operator+(const ListeChaineeEntiers&, ListeChaineeEntiers&&)`
+- `friend ListeChaineeEntiers operator+(ListeChaineeEntiers&&, ListeChaineeEntiers&&)`
+
+Dans tous les cas, on a choisi une fonction amie, donc on crée une nouvelle liste comme résultat.
+
 ## Exercice 2 - Liste chainée générique
 
 Écrivez une classe ```ListeChaineeGenerique``` qui implémente une liste chaînée générique avec les mêmes fonctionnalités que l'exercice précédent.
