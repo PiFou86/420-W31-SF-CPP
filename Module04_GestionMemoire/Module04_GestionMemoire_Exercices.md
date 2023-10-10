@@ -41,7 +41,7 @@ Le but de cet exercice est de créer une liste d'entiers. La liste va être cré
 
 Implantez les méthodes du diagramme :
 
-- `ListeEntiers()` : Constructeur par défaut, initialise la liste à vide avec une capacité de 23 éléments.
+- `ListeEntiers(const int& p_capaciteMin = 23)` : Constructeur par défaut, initialise la liste à vide avec une capacité de 23 éléments.
 - `ListeEntiers(const ListeEntiers &p_listeACopier)` : Constructeur par copie, copie les éléments de la liste passée en paramètre.
 - `ListeEntiers(ListeEntiers &&p_listeADeplacer)` : Constructeur par déplacement, déplace les éléments de la liste passée en paramètre.
 - `~ListeEntiers()` : Destructeur, libère la mémoire allouée pour le tableau d'entiers.
