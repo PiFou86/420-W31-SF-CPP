@@ -4,7 +4,7 @@ class ListeEntiers {
   - int *m_valeurs
   - int m_capacite
   - int m_nbElements
-  + ListeEntiers()
+  + ListeEntiers(const int& p_capaciteMin = 23)
   + ListeEntiers(const ListeEntiers &p_listeACopier)
   + ListeEntiers(ListeEntiers &&p_listeADeplacer)
   + ~ListeEntiers()
