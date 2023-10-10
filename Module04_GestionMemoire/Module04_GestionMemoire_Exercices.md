@@ -33,7 +33,7 @@ Autres questions :
 
 ## Exercice 2 - Liste d'entiers
 
-Le but de cet exercice est de créer une liste d'entiers. La liste va être créée à partir d'un tableau d'entiers dynamique. La liste va être implémentée à l'aide de la structure suivante :
+Le but de cet exercice est de créer une liste d'entiers. La liste va être créée à partir d'un tableau d'entiers dynamique. La capacité minimum de cette liste est de 23 éléments. La liste va être implémentée à l'aide de la structure suivante :
 
 ![Liste](../images/Module04_GestionMemoire/diag/listeEntiers/listeEntiers.svg)
 
@@ -41,7 +41,7 @@ Le but de cet exercice est de créer une liste d'entiers. La liste va être cré
 
 Implantez les méthodes du diagramme :
 
-- `ListeEntiers(const int& p_capaciteMin = 23)` : Constructeur par défaut, initialise la liste à vide avec une capacité de 23 éléments.
+- `ListeEntiers(const int& p_capaciteMin = 23)` : Constructeur par défaut, initialise la liste à vide avec une capacité de 23 éléments minimum.
 - `ListeEntiers(const ListeEntiers &p_listeACopier)` : Constructeur par copie, copie les éléments de la liste passée en paramètre.
 - `ListeEntiers(ListeEntiers &&p_listeADeplacer)` : Constructeur par déplacement, déplace les éléments de la liste passée en paramètre.
 - `~ListeEntiers()` : Destructeur, libère la mémoire allouée pour le tableau d'entiers.
