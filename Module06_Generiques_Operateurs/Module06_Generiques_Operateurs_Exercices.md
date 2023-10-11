@@ -5,7 +5,7 @@
 Reprenez le code de votre liste d'entiers et ajoutez-y les opérateurs suivants :
 
 - `liste + élément => liste`, `liste += élément => liste` : ajoute un élément à la liste
-- `liste + liste => liste`, `liste += liste => liste` : concatène deux listes
+- `liste + liste => liste`, `liste += liste => liste` : concatène deux listes (Y a-t-il plusieurs signatures à implanter ? Exemple avec rvalue ?)
 - `ostream << liste => ostream` : affiche la liste dans un flux de sortie
 
 ## Exercice 2 - Génériques
