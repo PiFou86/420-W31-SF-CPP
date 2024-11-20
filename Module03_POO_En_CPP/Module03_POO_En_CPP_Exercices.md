@@ -50,6 +50,8 @@ Votre classe doit contenir les méthodes suivantes :
 - `obtenir(int p_index)` qui retourne l'élément à l'index `p_index` si l'index existe. Sinon lever une exception
 - `definir(int p_index, int p_element)` qui définit l'élément à l'index `p_index` avec la valeur `p_element` si l'index existe. Sinon lever une exception
 
+![Liste version 1](../images/Module03_POO_En_CPP/diag/liste_v1/liste_v1.png)
+
 Dans le main, faîtes les tests suivants :
 
 - Créez une instance de la classe `Liste`
@@ -68,6 +70,8 @@ Dans le main, faîtes les tests suivants :
 Le but de cet exercice est de créer une classe `Collection` qui permet d'abstraire la classe `Liste` de l'exercice précédent. Cette classe doit permettre d'ajouter des entiers, de les supprimer, etc.
 
 Vous devez extraire les méthodes de la classe `Liste` et les donner comme interface à la classe `Collection` et faire en sorte que la classe `Liste` hérite de la classe `Collection`. La classe `Collection` doit être abstraite. Déclarez et définissez explicitement un constructeur par défaut, par copie et de déplacement et un destructeur pour la classe `Collection`. Ces méthodes doivent afficher un message dans la console pour indiquer leur exécution.
+
+![Liste version 2](../images/Module03_POO_En_CPP/diag/liste_v2/liste_v2.png)
 
 Dans le main, faîtes les tests suivants :
 

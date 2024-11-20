@@ -1,0 +1,34 @@
+@startuml
+
+abstract class Collection {    
+    + {abstract} ajouter(p_element : int) : void = 0
+    + {abstract} supprimer(p_index : int) : void = 0
+    + {abstract} obtenir(p_index : int) : int = 0
+    + {abstract} definir(p_index : int, p_element : int) : void = 0
+}
+
+class Liste {
+    - m_nombreDElements : int
+    - m_elements : int[20]
+    
+    + Liste() : void
+    + Liste(const Liste&) : void
+    + Liste(Liste&&) : void
+    + operator=(const Liste&) : Liste&
+    + operator=(Liste&&) : Liste&
+    + ~Liste() : void
+
+    + ajouter(p_element : int) : void
+    + supprimer(p_index : int) : void
+    + obtenir(p_index : int) : int
+    + definir(p_index : int, p_element : int) : void
+}
+
+
+class Main {
+    + main(args : String[]) : void
+}
+
+Collection <|-- Liste
+Main .r.> Collection
+@enduml

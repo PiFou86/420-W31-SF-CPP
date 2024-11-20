@@ -1,0 +1,25 @@
+@startuml
+class Liste {
+    - m_nombreDElements : int
+    - m_elements : int[20]
+    
+    + Liste() : void
+    + Liste(const Liste&) : void
+    + Liste(Liste&&) : void
+    + operator=(const Liste&) : Liste&
+    + operator=(Liste&&) : Liste&
+    + ~Liste() : void
+
+    + ajouter(p_element : int) : void
+    + supprimer(p_index : int) : void
+    + obtenir(p_index : int) : int
+    + definir(p_index : int, p_element : int) : void
+}
+
+
+class Main {
+    + main(args : String[]) : void
+}
+
+Main .r.> Liste
+@enduml
