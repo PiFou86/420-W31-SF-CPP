@@ -100,9 +100,9 @@ public:
 <summary>Réponse détaillée</summary>
 - `t[0]` : `0x100`
 - `t[1]` : `0x100 + 8 = 0x108`
-- `t + 3` : `0x100 + 3 * 8 = 0x118`
-- `t + 9` : `0x100 + 9 * 8 = 0x148`
-- `t + 10` : `0x100 + 10 * 8 = 0x150`
+- `t + 3` : `0x100 + 3 * 8 = 0x118` // 3 * 8 = 24 ? donc 0x124
+- `t + 9` : `0x100 + 9 * 8 = 0x172`
+- `t + 10` : `0x100 + 10 * 8 = 0x180`
 - Formule : `adresse_base + i * sizeof(type_element)`
 - L'index correspond à un décalage par rapport à l'adresse de base.
 - On ne peut pas accéder à des adresses en dehors des limites du tableau. Donc ici, il n'y a pas de `t[10]` ou de *(t + 10) (possibilité d'écraser des données).
