@@ -41,7 +41,7 @@ Ajoutez les opérateurs suivants à votre pile et votre file :
 
 ## Exercice 2 - Compteur de parenthèses
 
-En utilisant un des deux structures de données vues en cours, écrivez un programme qui lit une chaîne de caractères et qui indique si les parenthèses sont correctement imbriquées. Par exemple, les chaînes suivantes sont correctes : `()`, `(()())`, `(()(()()))`, `((()())(()()))`. Les chaînes suivantes sont incorrectes : `(`, `)`, `(()`, `())`, `(()(()())`, `((()())(()())`.
+En utilisant une des deux structures de données vues en cours, écrivez un programme qui lit une chaîne de caractères et qui indique si les parenthèses sont correctement imbriquées. Par exemple, les chaînes suivantes sont correctes : `()`, `(()())`, `(()(()()))`, `((()())(()()))`. Les chaînes suivantes sont incorrectes : `(`, `)`, `(()`, `())`, `(()(()())`, `((()())(()())`.
 
 Modifiez le programme pour qu'il accepte aussi les caractères `[]` et `{}`. Par exemple, les chaînes suivantes sont correctes : `()`, `[]`, `{}`, `(()())`, `(()[]())`, `((){()})`, `(()(()()))`, `((()())(()()))`. Les chaînes suivantes sont incorrectes : `(`, `)`, `[`, `]`, `{`, `}`, `(()`, `())`, `(()[]`, `((){()}`, `(()(()())`, `((()())(()())`.
 
