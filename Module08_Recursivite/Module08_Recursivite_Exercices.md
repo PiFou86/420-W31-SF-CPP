@@ -8,7 +8,7 @@
 
 ## Exercice 2 - Division entière
 
-Écrivez une fonction récursive qui calcule le reste de la division entière de deux nombres entiers sans utiliser l'opérateur modulo.
+Écrivez une fonction récursive qui calcule le reste de la division entière de deux nombres entiers sans utiliser les opérateurs diviser, modulo et multiplier.
 
 ## Exercice 3 - Suite de Fibonacci
 
