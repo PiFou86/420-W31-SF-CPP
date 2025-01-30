@@ -32,7 +32,7 @@ La suite est définie de la façon suivante :
 
 ```cpp
 std::string dureeLisibleParHumain(long long p_ns,
-  bool p_ignoreNs, bool p_ignoreUs, bool p_ignoreMs) {
+  bool p_ignoreNs = false, bool p_ignoreUs = false, bool p_ignoreMs = false) {
   constexpr long long Ns = 1;
   constexpr long long UsNs = 1'000 * Ns;
   constexpr long long MsNs = 1'000 * UsNs;
